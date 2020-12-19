@@ -40,13 +40,6 @@ func doit(fileName string) string {
 	return strconv.Itoa(ans)
 }
 
-func abs(a int) int {
-	if a < 0 {
-		return -a
-	}
-	return a
-}
-
 func check(e error) {
 	if e != nil {
 		panic(e)
